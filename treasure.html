@@ -1,76 +1,128 @@
 <!DOCTYPE html>
-<title>TREASURE</title>
-<h1>Treasure hunt</h1>
-<body>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
+</head>
+<body>
     <div class="container-fluid">
-       <div class="row">
-           <div class="col-sm-2" style="background-color:rgb(201, 201, 222)">Click on the chests to search for treasure</div>
-           <div id="chests" class="col-md-3" style="background-color:rgb(193, 126, 212)">Number of chests checked is zero
-           </div>
-           <div id="score" class="col-sm-2" style="background-color:rgb(138, 215, 227)">Score is unknown</div>
-           <div id="help" class="col-sm-5" style="background-color:rgb(179, 158, 175)">Help report</div>
-       </div>
-   
-       
-       <div class="container">
-           <div class="row">
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-           </div>
-         </div>
-         
-         <div class="container">
-           <div class="row">
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-           </div>
-         </div>
-     
-         <div class="container">
-           <div class="row">
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasuret" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-             <div class="col-sm">
-               <img src="chest.jpg" alt="Treasure" width="100" height="100">
-             </div>
-           </div>
-         </div>
-     
-         <div class="container">
+        <div class="row">
+            <div class="col-xl-12" style="background-color:rgb(201, 201, 222)">Click on the chests to search for treasure</div>
+            <div id="chests" class="col-xl-12" style="background-color:rgb(193, 126, 212)">Number of chests checked is zero
+            </div>
+            <div id="score" class="col-xl-12" style="background-color:rgb(138, 215, 227)">Score is unknown</div>
+            <div id="help" class="col-xl-12" style="background-color:rgb(179, 158, 175)">Help report</div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+            </div>
+          </div>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+            </div>
+          </div>
+      
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="help.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+            </div>
+          </div>
+      
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+            </div>
+          </div>
+      
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img src="chest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="closedchest.jpg" alt="Treasure" width="100" height="100">
+              </div>
+              <div class="col-sm">
+                <img src="treasure.jpg" alt="Treasure" width="100" height="100">
+              </div>
+            </div>
+          </div>
+
+
+</body>
+</html>
